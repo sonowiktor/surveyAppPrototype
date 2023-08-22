@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    tools:context=".AdminPanelPage">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="307dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="90dp"
+        android:layout_marginEnd="5dp"
+        app:cardUseCompatPadding="true"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/textViewGetQuestion7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="0dp"
+            android:gravity="center"
+            android:text="@string/welcome_admin"
+            android:textColor="@color/black"
+            android:textSize="30sp"/>
+
+        <LinearLayout
+            android:layout_width="310dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        app:cardCornerRadius="25dp"
+        app:cardElevation="10dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        app:cardUseCompatPadding="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/buttonStudentDetails"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/student_details"
+                android:textSize="17sp"
+                android:textAllCaps="true"
+                android:elevation="15dp"
+                android:gravity="center"
+                android:layout_marginStart="24dp"
+                android:layout_marginEnd="24dp"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                app:shapeAppearanceOverlay="@style/Button1"
+                app:backgroundTint="@color/red" />
+
+            <Button
+                android:id="@+id/buttonEditSurvey"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/edit_survey"
+                android:textSize="17sp"
+                android:textAllCaps="true"
+                android:elevation="15dp"
+                android:gravity="center"
+                android:layout_marginStart="24dp"
+                android:layout_marginEnd="24dp"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                app:shapeAppearanceOverlay="@style/Button1"
+                app:backgroundTint="@color/red" />
+
+            <Button
+                android:id="@+id/buttonPublishSurvey"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/publish_survey"
+                android:textSize="17sp"
+                android:textAllCaps="true"
+                android:elevation="15dp"
+                android:gravity="center"
+                android:layout_marginStart="24dp"
+                android:layout_marginEnd="24dp"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                app:shapeAppearanceOverlay="@style/Button1"
+                app:backgroundTint="@color/red" />
+
+            <Button
+                android:id="@+id/buttonAddSurvey"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/add_survey"
+                android:textSize="17sp"
+                android:textAllCaps="true"
+                android:elevation="15dp"
+                android:gravity="center"
+                android:layout_marginStart="24dp"
+                android:layout_marginEnd="24dp"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                app:shapeAppearanceOverlay="@style/Button1"
+                app:backgroundTint="@color/red" />
+
+            <Button
+                android:id="@+id/buttonViewGraph"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="24dp"
+                android:layout_marginEnd="24dp"
+                android:elevation="15dp"
+                android:gravity="center"
+                android:text="@string/view_graph"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:textSize="17sp"
+                app:backgroundTint="@color/red"
+                app:shapeAppearanceOverlay="@style/Button1"/>
+
+            <Button
+                android:id="@+id/buttonAdminLogOut"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/log_out_admin"
+                android:textSize="17sp"
+                android:textAllCaps="true"
+                android:elevation="15dp"
+                android:gravity="center"
+                android:layout_marginStart="100dp"
+                android:layout_marginEnd="100dp"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                app:shapeAppearanceOverlay="@style/Button1"
+                app:backgroundTint="@color/red"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
